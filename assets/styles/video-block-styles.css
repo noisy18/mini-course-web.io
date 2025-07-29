@@ -6,6 +6,9 @@
 
 .block-video {
     padding: 30px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .block-video-content p {

@@ -31,9 +31,11 @@
 }
 
 .hello-block {
-    margin: 30px 0 30px 45px;
-    width: 270px;
+    margin: 30px 45px;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hello-block p {
@@ -75,6 +77,9 @@
 
 .content {
     padding: 58px 45px 15px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-text .content-video {
@@ -103,12 +108,9 @@
 
 .introduction {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 30px 45px 15px 45px;
-}
-
-.introduction-text {
-    width: 270px;
 }
 
 .introduction-text p {
@@ -119,4 +121,7 @@
     padding: 30px 44px 30px 45px;
     background-color: var(--blue);
     color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
