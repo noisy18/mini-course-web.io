@@ -1,7 +1,9 @@
 :root {
     --blue: #2563EB;
     --white: #ffffff;
-    --black: #000000;    
+    --black: #000000;
+    --orange: #FF9000;
+    --green: #2BAE0D;
 }
 
 .header-logo {
@@ -130,4 +132,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.green {
+    color: var(--green);
+}
+
+.lesson-tasks {
+    padding: 30px 45px 15px 45px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.lesson-tasks-text p {
+    margin-bottom: 15px;
+}
+
+.additional-info {
+    padding: 30px 45px 15px 45px;
+}
+
+.additional-info .text {
+    margin-bottom: 15px;
+}
+
+.additional-info .link {
+    margin-bottom: 15px;
+}
+
+.additional-info button {
+    background-color: var(--blue);
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    margin-bottom: 15px;
+}
+
+.additional-info button:hover {
+  transform: scale(1.05);
+  background-color: #032531;
+}
+
+.additional-info button a{
+    color: var(--white);
+    text-decoration: none;
 }

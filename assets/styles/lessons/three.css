@@ -4,22 +4,18 @@
     --black: #000000;    
 }
 
-.lesson-one {
+.lesson-three {
     padding: 30px 45px 15px 45px;
 }
 
-.lesson-one .head {
+.lesson-three .head {
     margin-bottom: 30px;
 }
 
-.lesson-one .main-text p {
+.lesson-three .main-text p {
     margin-bottom: 15px;
 }
 
-.lesson-one .main-text .list {
+.lesson-three .main-text img {
     margin-bottom: 15px;
-}
-
-.lesson-one .main-text .list .list-item {
-    margin-bottom: 0;
 }

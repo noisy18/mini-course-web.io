@@ -1,0 +1,46 @@
+:root {
+    --blue: #2563EB;
+    --white: #ffffff;
+    --black: #000000;    
+}
+
+.blue-step {
+    padding: 30px 45px 15px 45px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.blue-step-text p {
+    margin-bottom: 15px;
+}
+
+.white-step {
+    padding: 30px 45px 15px 45px;
+    background-color: var(--white);
+
+}
+
+.white-step-text p {
+    margin-bottom: 15px;
+}
+
+.blue-step-text a {
+    color: var(--white);
+}
+
+
+.lesson-eight {
+    padding: 30px 45px 15px 45px;
+}
+
+.lesson-eight .head {
+    margin-bottom: 30px;
+}
+
+.lesson-eight-text .main-text p {
+    margin-bottom: 15px;
+}
+
+.lesson-eight-text .main-text img {
+    margin-bottom: 15px;
+}
