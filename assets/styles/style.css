@@ -1,0 +1,122 @@
+:root {
+    --blue: #2563EB;
+    --white: #ffffff;
+    --black: #000000;    
+}
+
+.logotype {
+    margin: 85px 45px 0 45px;
+
+}
+
+.header {
+    background-color: var(--blue);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 89px;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 20px;
+    color: var(--white);
+    margin-bottom: 13px;
+}
+
+.header p {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.hello-block {
+    margin: 30px 0 30px 45px;
+    width: 270px;
+    text-align: left;
+}
+
+.hello-block p {
+    margin-bottom: 15px;
+}
+
+.hello-block span {
+    color: var(--blue);
+}
+
+.author {
+    position: relative;
+}
+
+.author-container {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 30px 45px 83px 45px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.author-container .author-text .first {
+    margin-bottom: 15px;
+}
+
+.author-quote {
+    width: 186px;
+    box-shadow: 0 4px 12px 0 var(--black);
+    border-radius: 10px;
+    padding: 18px 15px 18px 15px;
+    position: absolute;
+    z-index: 10;
+    background-color: var(--white);
+    right: 25px;
+    bottom: -28px;
+}
+
+.content {
+    padding: 58px 45px 15px 45px;
+}
+
+.content-text .content-video {
+    color: var(--blue);
+}
+
+.content-text p {
+    margin-bottom: 15px;
+}
+
+.under-content {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 30px 45px;
+}
+.under-content .under-content-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.under-content-text .first-text, .second-text, .tree-text {
+    display: flex;
+    gap: 5px;
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    padding: 30px 45px 15px 45px;
+}
+
+.introduction-text {
+    width: 270px;
+}
+
+.introduction-text p {
+    margin-bottom: 15px;
+}
+
+.under-block {
+    padding: 30px 44px 30px 45px;
+    background-color: var(--blue);
+    color: var(--white);
+}

@@ -1,0 +1,22 @@
+:root {
+    --blue: #2563EB;
+    --white: #ffffff;
+    --black: #000000;    
+}
+
+.block-video {
+    padding: 30px 45px;
+}
+
+.block-video-content p {
+    margin-bottom: 15px;
+}
+
+.under-video {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color: var(--white);
+}

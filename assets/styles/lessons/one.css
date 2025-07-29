@@ -1,0 +1,35 @@
+:root {
+    --blue: #2563EB;
+    --white: #ffffff;
+    --black: #000000;    
+}
+
+.lesson-one {
+    padding: 30px 45px 15px 45px;
+}
+
+.lesson-one .head {
+    margin-bottom: 30px;
+}
+
+.lesson-one .main-text p {
+    margin-bottom: 15px;
+}
+
+.lesson-one .main-text .list {
+    margin-bottom: 15px;
+}
+
+.lesson-one .main-text .list .list-item {
+    margin-bottom: 0;
+}
+
+.lesson-one-tasks {
+    padding: 30px 45px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.lesson-one-tasks-text p {
+    margin-bottom: 15px;
+}
