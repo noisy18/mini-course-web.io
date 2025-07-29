@@ -1,3 +1,9 @@
+:root {
+    --blue: #2563EB;
+    --white: #ffffff;
+    --black: #000000;    
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +16,7 @@ body {
     font-weight: 300;
     font-style: normal;
     font-size: 13px;
+    background-color: var(--white);
 }
 
 .sansation-light {
